@@ -1,0 +1,4 @@
+language: cpp
+script:
+    - g++ --version
+    - g++ -Wall test/test.cpp && ./a.out
